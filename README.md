@@ -24,18 +24,5 @@ Desarrollar una interfaz funcional y responsiva aplicando **HTML5 semántico**, 
 - `js/main.js`: Lógica principal, datos de los vehículos y manejo del carrito.
 - `css/styles.css`: Estilos personalizados adicionales.
 
-## 💻 Instalación y Uso
-1. Clona este repositorio:
-   ```bash
-   git clone github.com
-2. Navega a la carpeta del proyecto.
-3. Abre el archivo index.html en tu navegador favorito.
-
-Repositorio Público: github.com
-Desarrollado por: [Tu Nombre o Usuario] - Diciembre 2025
 
 
-### 💡 Notas para tu entrega:
-1.  **Personalización**: Asegúrate de reemplazar `TU_USUARIO` en los enlaces por tu nombre de usuario real de GitHub para que los links funcionen correctamente.
-2.  **Git Commits**: Recuerda que para cumplir con los requisitos técnicos, debes realizar al menos 3 commits descriptivos. Ejemplo:
-    *   `git commit -m "docs: actualizar README con temática de concesionaria y l
