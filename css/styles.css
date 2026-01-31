@@ -1,0 +1,56 @@
+/* Custom Styles para AutoPremium 2025 */
+
+/* Variables para mantener consistencia de marca */
+:root {
+    --primary-color: #ffc107; /* Amarillo Warning de Bootstrap */
+    --dark-color: #212529;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Efecto de elevación en las tarjetas de vehículos */
+.transition-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.transition-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* Estilo para las imágenes del catálogo */
+.card-img-top {
+    transition: filter 0.3s ease;
+}
+
+.transition-card:hover .card-img-top {
+    filter: brightness(1.1);
+}
+
+/* Ajuste para el contador del carrito en el navbar */
+#cart-count {
+    font-size: 0.7rem;
+    padding: 0.35em 0.65em;
+}
+
+/* Footer siempre al final */
+footer {
+    margin-top: auto;
+}
+
+/* Ajustes de responsividad específicos (Requisito Mínimo) */
+@media (max-width: 420px) {
+    .display-3 {
+        font-size: 2.5rem; /* Título más pequeño en móviles */
+    }
+    
+    .card-body h5 {
+        font-size: 1.1rem;
+    }
+}
